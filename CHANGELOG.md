@@ -815,6 +815,7 @@
   Additionally, formats can now return any data type instead of requiring it to be a `string` and `destination` property in `files` is now optional.
   This allows users to create formats intended for only formatting tokens and letting users do stuff with it during runtime rather than writing to files.
 - c06661d: Re-add and update example basic, fix copySync command in CLI, fix android templates to use $type for DTCG tokens.
+- 4556712: Make css transforms for strokeStyle, cubicBezier and fontFamily transitive, to deal with the use case where they are used within border, transition and typography tokens and those tokens have **other** properties that contain references.
 
 ### Patch Changes
 
