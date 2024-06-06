@@ -835,10 +835,12 @@ snapshots["integration custom formats inline custom with new args should match s
           "type": "value"
         },
         "fontFamily/css": {
-          "type": "value"
+          "type": "value",
+          "transitive": true
         },
         "cubicBezier/css": {
-          "type": "value"
+          "type": "value",
+          "transitive": true
         },
         "strokeStyle/css/shorthand": {
           "type": "value",
@@ -1781,10 +1783,12 @@ snapshots["integration custom formats register custom format with new args shoul
           "type": "value"
         },
         "fontFamily/css": {
-          "type": "value"
+          "type": "value",
+          "transitive": true
         },
         "cubicBezier/css": {
-          "type": "value"
+          "type": "value",
+          "transitive": true
         },
         "strokeStyle/css/shorthand": {
           "type": "value",
